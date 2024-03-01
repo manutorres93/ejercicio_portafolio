@@ -1,0 +1,68 @@
+body{
+    background-image: url(background.png);
+    opacity: .9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+form{
+    background-color: rgb(203, 175, 228);
+    border-radius: 2rem;
+    padding: 10px;
+}
+
+header{
+    padding: 50px;
+}
+
+fieldset{
+    display: grid;
+    gap: 10px;
+    width: 580px;
+    border-radius: 2rem;
+}
+
+.div-formulario{
+    
+    width: 633px;
+    display: flex;
+    border: solid 3px rgb(84, 40, 161);
+    border-radius: 2rem;
+
+    
+    
+}
+
+.div-cena{
+    background-color: rgb(203, 175, 228);
+    border-radius: 2rem;
+    padding: 10px;
+}
+
+.section-formulario{
+    display: flex;
+    justify-content: center;
+}
+
+.inouts{
+    border-radius: 1rem;
+}
+
+.btn-casa{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    width: 200px;
+    height: 40px;
+    font-weight: 900; 
+}
+
+.btn-casa p{
+    text-align: center;
+}
+
+#list-information{
+    list-style: none;
+}
+

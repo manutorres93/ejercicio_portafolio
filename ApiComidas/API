@@ -1,0 +1,9 @@
+Api comidas
+link referencia:
+https://www.themealdb.com/api.php
+
+Filtrar por categorias
+https://www.themealdb.com/api/json/v1/1/categories.php
+
+Busqueda por categorias
+https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood

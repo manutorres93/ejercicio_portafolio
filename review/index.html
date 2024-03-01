@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio hogwarts</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header></header>
+    <section class="section-formulario">
+      <div class="div-formulario">
+        <form action="" method="post">
+          <fieldset>
+            <h1>Bienvenido a Howgarts, Estudiante</h1>
+            <legend></legend>
+
+            <img src="kim.jpg" height="250px" alt="" />
+
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" class="inouts" />
+            <br />
+
+            <label for="familia">Familia: </label>
+            <input type="text" id="familia" class="inouts" />
+            <br />
+
+            <label for="edad">Edad: </label>
+            <input type="text" id="edad" class="inouts" />
+            <br />
+
+            <label for="edad">Linaje </label>
+            <select class="form-select" name="select" id="linaje">
+              <option value="">Seleccione linaje</option>
+            </select>
+            <br />
+
+            <label for="edad">Cualidad </label>
+            <select class="form-select" name="select" id="cualidad">
+              <option value="">Seleccione cualidad</option>
+            </select>
+          </fieldset>
+
+          <div id="info-estudiante">
+            <h3>Información del estudiante</h3>
+            <ul id="list-information">
+              <li>Nombre:</li>
+              <li>Familia:</li>
+              <li>Edad:</li>
+              <li>Linaje:</li>
+              <li>Casa:</li>
+              <li>Patronum:</li>
+              <li>Cualidad principal:</li>
+            </ul>
+            <!-- Puedes agregar más contenido aquí según tus necesidades -->
+          </div>
+          <div>
+            <button class="btn-casa" type="button">
+              Vamos a la cena de bienvenida
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script src="hogwarts.js"></script>
+  </body>
+</html>
