@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tu Aplicación</title>
+  </head>
+  <body>
+    <header>
+      <h1>Actividad 1</h1>
+    </header>
+
+    <section>
+      <h2>¿Qué es un motor de base de datos?</h2>
+      <p>
+        Un motor de base de datos es un software que gestiona el almacenamiento,
+        organización, recuperación, seguridad e integridad de los datos en una
+        base de datos. Actúa como una interfaz entre la base de datos y las
+        aplicaciones que acceden a ella, proporcionando un conjunto de funciones
+        para realizar operaciones en los datos, como consultas, inserciones,
+        actualizaciones y eliminaciones.
+      </p>
+    </section>
+
+    <section>
+      <h2>Cuál es la diferencia entre SQL y MySQL</h2>
+      <p>
+        SQL (Structured Query Language) es un lenguaje estándar utilizado para
+        gestionar y manipular bases de datos relacionales. Es independiente del
+        sistema de gestión de bases de datos (DBMS) específico. MySQL, por otro
+        lado, es un sistema de gestión de bases de datos (DBMS) que utiliza SQL
+        como lenguaje para realizar operaciones en la base de datos. En resumen,
+        MySQL es un software específico que implementa y utiliza el lenguaje
+        SQL.
+      </p>
+    </section>
+
+    <section>
+      <h2>Qué es una relación en MySQL</h2>
+      <p>
+        En el contexto de bases de datos relacionales, una relación en MySQL se
+        refiere a la conexión lógica o asociación entre tablas que comparten
+        datos relacionados. Estas relaciones se establecen utilizando claves
+        primarias y claves externas para mantener la integridad referencial
+        entre las tablas.
+      </p>
+    </section>
+
+    <section>
+        <h2>Sentencias SQL</h2>
+        <p>
+         <ul>
+            <li>INSERT INTO estudiantes (nombres,apellido,correo, fecha_nacimiento) VALUES ('Manuela','Torres','manuela@gmail.com','2024-01-01')</li>
+            <li>SELECT nombres FROM `estudiantes`</li>
+            <li>CREATE TABLE estudiantes(id INT PRIMARY KEY AUTO_INCREMENT, nombres VARCHAR(45),apellido VARCHAR(45),correo VARCHAR(150),fecha_nacimiento DATE);</li>
+            <li>ALTER TABLE users MODIFY musica VARCHAR(250) NULL;</li>
+            <li>UPDATE users set musica=NULL WHERE edad=50;</li>
+            <li>DELETE FROM `estudiantes` WHERE nombres="Manuela";</li>
+         </ul>
+        </p>
+      </section>
+
+    <div class="editor-container">
+      <img src="../codigoActividad1.png" alt="" />
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Proyecto de Base de Datos</p>
+    </footer>
+  </body>
+</html>
